@@ -1,0 +1,18 @@
+# Membuat list data kendaraan
+data_kendaraan = [
+    {
+        "Nama Kendaraan": "Motor",
+        "Jenis Kendaraan": "Roda Dua",
+        "Merk Kendaraan": "Honda",
+        "CC Kendaraan": 150
+  
+    }
+]
+
+# Menampilkan data kendaraan
+for kendaraan in data_kendaraan:
+    print("Nama Kendaraan:", kendaraan["Nama Kendaraan"])
+    print("Jenis Kendaraan:", kendaraan["Jenis Kendaraan"])
+    print("Merk Kendaraan:", kendaraan["Merk Kendaraan"])
+    print("CC Kendaraan:", kendaraan["CC Kendaraan"])
+    print()
